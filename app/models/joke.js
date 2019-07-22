@@ -23,4 +23,4 @@ const jokeSchema = new mongoose.Schema({
   timestamps: true
 })
 
-module.exports = mongoose.model('Activity', jokeSchema)
+module.exports = mongoose.model('Joke', jokeSchema)

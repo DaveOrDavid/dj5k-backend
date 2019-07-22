@@ -4,3 +4,7 @@
 General Assembly Capstone project backend
 
 The Dad Joke 5000 backend will support the DJ5K front end using Express API
+
+# Heroku Hosting
+
+https://dj5k-backend.herokuapp.com/

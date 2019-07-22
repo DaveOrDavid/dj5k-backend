@@ -1,7 +1,7 @@
 'use strict'
 
 // creating a base name for the mongodb
-const mongooseBaseName = 'thawing-beyond-32492'
+const mongooseBaseName = 'dj5k-backend'
 
 // create the mongodb uri for development and test
 const database = {

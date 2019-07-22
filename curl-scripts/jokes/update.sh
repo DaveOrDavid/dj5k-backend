@@ -12,7 +12,7 @@ curl "${API}${URL_PATH}/${ID}" \
   "joke": {
     "setup": "'"${SETUP}"'",
     "punchline": "'"${PUNCHLINE}"'",
-    "isFunny": "'"${ISFUNNY}"'"
+    "isfunny": "'"${ISFUNNY}"'"
   }
 }'
 

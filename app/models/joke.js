@@ -9,7 +9,7 @@ const jokeSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  isFunny: {
+  isfunny: {
     type: Boolean,
     required: false
 

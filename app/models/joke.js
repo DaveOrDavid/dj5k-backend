@@ -1,6 +1,10 @@
 const mongoose = require('mongoose')
 
 const jokeSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: true
+  },
   setup: {
     type: String,
     required: true

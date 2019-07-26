@@ -1,6 +1,10 @@
 const mongoose = require('mongoose')
 
 const jokeSchema = new mongoose.Schema({
+  title: {
+    type: String,
+    required: true
+  },
   setup: {
     type: String,
     required: true
@@ -9,7 +13,7 @@ const jokeSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  isFunny: {
+  isfunny: {
     type: Boolean,
     required: false
 

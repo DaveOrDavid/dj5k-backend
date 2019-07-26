@@ -11,9 +11,10 @@ curl "${API}${URL_PATH}" \
   --header "Authorization: Bearer ${TOKEN}" \
   --data '{
     "joke": {
+      "title": "'"${TITLE}"'",
       "setup": "'"${SETUP}"'",
       "punchline": "'"${PUNCHLINE}"'",
-      "isFunny": "'"${ISFUNNY}"'"
+      "isfunny": "'"${ISFUNNY}"'"
     }
   }'
 

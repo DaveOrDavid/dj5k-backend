@@ -40,6 +40,19 @@ I wanted to stay in the JavaScript family which is why I chose Express API with 
 
 # Instruction Installations for Use
 
+Installation:
+- Download this template.
+- Move the .zip file to your wdi/projects/ directory and Unzip it (creating a folder) -- NOTE: if the folder was -already unzipped, use the mv command line to move it to the sei/projects/ directory.
+- Rename the directory to your-app-name.
+- Empty README.md and fill with your own content.
+- Move into the new project and git init.
+- Replace all instances of 'dj5k' with your app name.
+- Install dependencies with npm install.
+- Ensure that you have nodemon installed by running npm install -g nodemon.
+- Ensure the API is functioning properly by running npm run server.
+- Once everything is working, make an initial commit.
+- Follow the steps in wdi/express-api-deployment-guide (or sei/express-api-deployment-guide if it gets renamed)
+
 - The backend is Node.js running from Heroku on production, and npm on local - use nodemon to start a localhost.
 
 Routes

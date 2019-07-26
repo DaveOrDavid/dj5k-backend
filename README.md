@@ -3,7 +3,7 @@
 
 # Role of App
 
-The Earth is populated by 7B people, many of whom are lacking in one of life'smost basic needs: humor. Fortunately, there's Dad Joke 5000. Who needs books when there's a modern joke database for all of your knee slappin' one-liners? Grab a random joke from the icanhazdadjoke 3rd party API, or sign up to create, read, update, delete, and vote on jokes that are laugh out loud life of the party hits or eyerolling 'don't quit your day job' flops.
+The Earth is populated by 7B people, many of whom are lacking in one of life's most basic needs: humor. Fortunately, there's Dad Joke 5000. Who needs books when there's a modern joke database for all of your knee slappin' one-liners? Grab a random joke from the icanhazdadjoke 3rd party API, or sign up to create, read, update, delete, and vote on jokes that are laugh out loud life of the party hits or eyerolling 'don't quit your day job' flops.
 
 - Built using React with JavaScript
 - Heavy reliance on Bootstrap for Component visualization
@@ -31,6 +31,12 @@ I wanted to stay in the JavaScript family which is why I chose Express API with 
 - Read: router.get('/jokes') and router.get('/jokes/:id')
 - Update: router.get('/jokes:/id')
 - Destroy: router.delete('/jokes/:id')
+
+# Future Development Plans
+
+- I'm considering trying a many to many relationship database - not sure.
+- Add more value pairs to the Jokes key (considering tagging)
+- Deploy on AWS!
 
 # Instruction Installations for Use
 
